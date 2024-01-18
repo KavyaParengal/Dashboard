@@ -28,7 +28,7 @@ class _DashboardState extends State<Dashboard> {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  Text('AlllnOne UI Kit',style: TextStyle(
+                  const Text('AlllnOne UI Kit',style: TextStyle(
                     fontSize: 20,
                     fontWeight: FontWeight.bold,
                   ),),
@@ -39,7 +39,7 @@ class _DashboardState extends State<Dashboard> {
                   )
                 ],
               ),
-              SizedBox(height: 10,),
+              const SizedBox(height: 10,),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
@@ -47,7 +47,7 @@ class _DashboardState extends State<Dashboard> {
                   aboveContainer('Full Apps',deepPurple!,Icons.add_box_outlined),
                 ],
               ),
-              SizedBox(height: 15,),
+              const SizedBox(height: 15,),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
@@ -55,15 +55,15 @@ class _DashboardState extends State<Dashboard> {
                   aboveContainer('Full Apps',orange!,Icons.dashboard_outlined),
                 ],
               ),
-              SizedBox(height: 20,),
-              Align(
+              const SizedBox(height: 20,),
+              const Align(
                 alignment: Alignment.centerLeft,
                 child: Text('Themes',style: TextStyle(
                   fontSize: 20,
                   fontWeight: FontWeight.bold,
                 ),),
               ),
-              SizedBox(height: 10),
+              const SizedBox(height: 10),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
@@ -71,7 +71,7 @@ class _DashboardState extends State<Dashboard> {
                   rightStack(orange!,'File Manager','Theme 1 Screens')
                 ],
               ),
-              SizedBox(height: 15,),
+              const SizedBox(height: 15,),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
@@ -79,7 +79,7 @@ class _DashboardState extends State<Dashboard> {
                   rightStack(green!,'Ecercise Tips','Theme 2 Screens'),
                 ],
               ),
-              SizedBox(height: 15,),
+              const SizedBox(height: 15,),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
@@ -87,7 +87,7 @@ class _DashboardState extends State<Dashboard> {
                   rightStack(deepPurple!,'Food Recipe','Theme 3 Screens'),
                 ],
               ),
-              SizedBox(height: 15,),
+              const SizedBox(height: 15,),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
@@ -95,7 +95,7 @@ class _DashboardState extends State<Dashboard> {
                   rightStack(cyan!,'Gym','Theme 4 Screens'),
                 ],
               ),
-              SizedBox(height: 15,),
+              const SizedBox(height: 15,),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
@@ -134,9 +134,9 @@ class _DashboardState extends State<Dashboard> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text(title,style: TextStyle(fontWeight: FontWeight.bold,fontSize: 19),),
-                  SizedBox(height: 8,),
-                  Text(subtitle,style: TextStyle(fontWeight: FontWeight.w400),)
+                  Text(title,style: const TextStyle(fontWeight: FontWeight.bold,fontSize: 19),),
+                  const SizedBox(height: 8,),
+                  Text(subtitle,style: const TextStyle(fontWeight: FontWeight.w400),)
                 ],
               ),
             ),
@@ -144,7 +144,7 @@ class _DashboardState extends State<Dashboard> {
           CircleAvatar(
             radius: 16,
             backgroundColor: clr,
-            child: Icon(Icons.arrow_forward_ios,color: Colors.white,size: 15,),
+            child: const Icon(Icons.arrow_forward_ios,color: Colors.white,size: 15,),
           )
         ]
     );
@@ -174,8 +174,8 @@ class _DashboardState extends State<Dashboard> {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Icon(icondata,color: Colors.white,size: 50,),
-          SizedBox(height: 10,),
-          Text(title,style: TextStyle(fontSize: 16,fontWeight: FontWeight.bold,color: Colors.white),)
+          const SizedBox(height: 10,),
+          Text(title,style: const TextStyle(fontSize: 16,fontWeight: FontWeight.bold,color: Colors.white),)
         ],
       ),
     );
